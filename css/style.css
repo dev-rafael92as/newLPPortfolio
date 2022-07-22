@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700&family=Raleway:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+
+    --bg-primary: #0C1218;
+    --blue-icons: #4B70F2;
+    --gray-fonts: #AEAEAE;
+    --white-fonts: #FFFFFF;
+    --grey-dark: #1E2123;
+
+    --ff-epilogue: 'Epilogue', sans-serif;
+    --ff-raleway: 'Raleway', sans-serif;
+}
+ /* ------- ESTILOS GERAIS -------- */
+
+ body {
+    font-size: 1.6rem;
+    background-color: var(--bg-primary);
+    font-family: var(--ff-epilogue);
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+.hide {
+    display: none;
+}
+
+ /* ------- HEADER -------- */
+
+header {
+    padding: 0 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5.4rem;
+    border-bottom: 1px solid var(--grey-dark);
+}
+
+nav {
+
+}
+
+.container-logo {
+
+}
+
+.container-logo__link {
+    font-family: var(--ff-raleway);
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    color: var(--white-fonts);
+}
+
+.menu-mobile-btn-closed {
+
+}
+
+.menu-mobile-btn-open {
+
+}
+
+/* ---- MENU MOBILE DROPDOWN --- */
+
+.menu-mobile__open {
+
+}
