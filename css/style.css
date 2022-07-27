@@ -24,6 +24,7 @@
     font-size: 1.6rem;
     background-color: var(--bg-primary);
     font-family: var(--ff-epilogue);
+    color: var(--gray-fonts);
 }
 
 a {
@@ -37,6 +38,18 @@ button {
 
 .hide {
     display: none;
+}
+
+.blue-text {
+    color: var(--blue-icons);
+}
+
+.white-text {
+    color: var(--white-fonts);
+}
+
+.mt-15 {
+    margin-top: 1.5rem;
 }
 
  /* ------- HEADER -------- */
@@ -77,5 +90,103 @@ nav {
 /* ---- MENU MOBILE DROPDOWN --- */
 
 .menu-mobile__open {
+    position: absolute;
+    top: 5.6rem;
+    left: 0;
+    height: 100%;
+    background-color: var(--bg-primary);
+    width: 100%;
+}
+
+.menu-mobile__list {
 
 }
+
+.menu-mobile__item {
+    height: 5.8rem;
+    border-bottom: 1px solid var(--grey-dark);
+}
+
+.menu-mobile__link {
+    padding: 0 1.6rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--gray-fonts);
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    height: 100%;
+}
+
+/* --------- Section intro ---------- */
+
+.intro-section {
+    width: 32.5rem;
+    margin: 0 auto;
+}
+
+.intro-welcome {
+    margin-top: 3.2rem;
+    font-weight: 400;
+    font-size: 1.0rem;
+    line-height: 10px;
+    letter-spacing: 0.2em;
+}
+
+.intro-name {
+    font-family: var(--ff-raleway);
+    font-weight: 700;
+    font-size: 4.4rem;
+    line-height: 5.2rem;
+    color: var(--white-fonts);
+}
+
+.intro-work {
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    color: var(--white-fonts);
+}
+
+.intro-text {
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 3.6rem;
+}
+
+.intro-button__container {
+    display: flex;
+    margin-top: 2.4rem;
+    justify-content: space-between;
+}
+
+.intro-linkedin {
+    width: 156px;
+    height: 44px;
+    background-color: var(--blue-icons);
+    color: var(--white-fonts);
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+}
+
+.intro-linkedin svg {
+    margin-left: 7px;
+}
+
+.intro-github {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    padding-right: 2.5rem;
+    color: var(--white-fonts);
+}
+
+.intro-image-container {
+    margin-top: 4.7rem;
+    text-align: center;
+}
+
+/* ------ history section ------- */
