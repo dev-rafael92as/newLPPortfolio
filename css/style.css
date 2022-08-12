@@ -247,29 +247,42 @@ nav {
 }
 
 .skills__title {
-
+    margin-top: 2rem;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 150%;
+    color: var(--white-fonts);
 }
 
 .skills__text {
-
+    margin-top: 2rem;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 3.0rem;
 }
 
-.skills__first-container {
-
-}
-
+.skills__first-container,
 .skills__second-container {
-
+    display: flex;
+    align-items: center;
+    margin-top: 5.3rem;
+    justify-content: space-between;
 }
 
 .skills__card-container {
-
+    text-align: center;
 }
 
 .skills__card-title {
-
+    margin-top: 3.8rem;
+    font-weight: 700;
+    line-height: 1.6rem;
+    color: var(--white-fonts);
 }
 
 .skills__card-text {
-    
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 14px;
 }
