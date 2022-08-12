@@ -123,7 +123,7 @@ nav {
 /* --------- Section intro ---------- */
 
 .intro-section {
-    width: 32.5rem;
+    padding: 0 1.6rem;
     margin: 0 auto;
 }
 
@@ -190,3 +190,86 @@ nav {
 }
 
 /* ------ history section ------- */
+
+.history-section {
+    padding: 0 1.6rem;
+    margin: 7.9rem auto 0;
+}
+
+.tag-section {
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    background: var(--blue-icons);
+    border-radius: 100px;
+    color: var(--white-fonts);
+    padding: 8px;
+}
+
+.history__title {
+    margin-top: 2rem;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 150%;
+    color: var(--white-fonts);
+    width: 20.4rem;
+    margin-bottom: 2rem;
+}
+
+.history__text {
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 3.0rem;
+    margin-bottom: 2rem;
+}
+
+.history__title-graduation,
+.history__title-work {
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 2.6rem;
+    color: var(--white-fonts);
+    margin-top: 2rem;
+}
+
+.history__text-graduation,
+.history__text-work  {
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 2.6rem;
+}
+
+/* ------ skills section ------- */
+
+.skills-section {
+    padding: 0 1.6rem;
+    margin: 3rem auto 0;
+}
+
+.skills__title {
+
+}
+
+.skills__text {
+
+}
+
+.skills__first-container {
+
+}
+
+.skills__second-container {
+
+}
+
+.skills__card-container {
+
+}
+
+.skills__card-title {
+
+}
+
+.skills__card-text {
+    
+}
