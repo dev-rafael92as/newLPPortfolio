@@ -11,9 +11,11 @@
 
     --bg-primary: #0C1218;
     --blue-icons: #4B70F2;
-    --gray-fonts: #AEAEAE;
+    --gray-fonts: #D7D7D7;
     --white-fonts: #FFFFFF;
     --grey-dark: #1E2123;
+
+    --border-detail: linear-gradient(90deg, #5F72BD 0%, #9B23EA 100%);
 
     --ff-epilogue: 'Epilogue', sans-serif;
     --ff-raleway: 'Raleway', sans-serif;
@@ -50,6 +52,18 @@ button {
 
 .mt-15 {
     margin-top: 1.5rem;
+}
+
+.mb-20 {
+    margin-bottom: 2rem;
+}
+
+.title__section-style {
+    margin-top: 2rem;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 150%;
+    color: var(--white-fonts);
 }
 
  /* ------- HEADER -------- */
@@ -206,16 +220,6 @@ nav {
     padding: 8px;
 }
 
-.history__title {
-    margin-top: 2rem;
-    font-weight: 700;
-    font-size: 1.8rem;
-    line-height: 150%;
-    color: var(--white-fonts);
-    width: 20.4rem;
-    margin-bottom: 2rem;
-}
-
 .history__text {
     font-weight: 400;
     font-size: 1.2rem;
@@ -244,14 +248,6 @@ nav {
 .skills-section {
     padding: 0 1.6rem;
     margin: 3rem auto 0;
-}
-
-.skills__title {
-    margin-top: 2rem;
-    font-weight: 700;
-    font-size: 1.8rem;
-    line-height: 150%;
-    color: var(--white-fonts);
 }
 
 .skills__text {
@@ -285,4 +281,85 @@ nav {
     font-weight: 400;
     font-size: 1.2rem;
     line-height: 14px;
+}
+
+/* ------ project section ------- */
+
+.project-section {
+    padding: 0 1.6rem;
+    margin: 8.2rem auto 0;
+}
+
+.project__text {
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 3rem;
+    color: var(--gray-fonts);
+    margin-bottom: 3.7rem;
+}
+
+.project__container-text {
+    height: 9.7rem;
+    background: var(--border-detail);
+    margin-bottom: 4.6rem;
+}
+
+.project__container-text2 {
+    background: var(--bg-primary);
+    height: 9.7rem;
+    margin-left: 2px;
+    padding-left: 3.2rem;
+}
+
+.project__cards-container  {
+    
+}
+
+.project__card {
+    width: 24.5rem;
+}
+
+.project__card img {
+    margin-bottom: 1.5rem;
+}
+
+.project__card-tag-container {
+    
+}
+
+.project__card-tag {
+    border: 1px solid var(--blue-icons);
+    padding: 5px 7px;
+    border-radius: 5.2rem;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1rem;
+    color: var(--white-fonts);
+}
+
+.project__card-title {
+    margin: 2rem 0;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    color: var(--white-fonts);
+}
+
+.project__card-text {
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 3rem;
+    margin-bottom: 2rem;
+}
+
+.project__card-button {
+    width: 241px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    color: var(--white-fonts);
+    background-color: var(--blue-icons);
+    padding: 10px;
+    text-align: center;
+    display: block;
 }
